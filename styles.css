@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  font-family: "Manrope", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  width: calc(100% - 80px);
+  height: 455px;
+  margin: 36px 40px;
+  border-radius: 10px;
+  background: #ebf0fa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  width: 538px;
+  height: 251px;
+  gap: 36px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.content__box {
+  width: 511px;
+  height: 147px;
+  gap: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.content__title {
+  width: 195px;
+  height: 48px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  color: #1f4284;
+  font-style: normal;
+}
+.content__text {
+  width: 511px;
+  height: 81px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27.2px;
+  text-align: left;
+  color: #727272;
+  font-style: normal;
+}
+.button {
+  width: 341px;
+  height: 68px;
+  padding: 12px 12px 12px 24px;
+  gap: 64px;
+  border-radius: 60px;
+  background: #244c98;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.button__text {
+  width: 197px;
+  height: 29px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.container__image {
+  width: calc(50% - 20px);
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 10px 10px 0;
+}
